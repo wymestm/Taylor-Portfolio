@@ -11,11 +11,11 @@ export function AssetsWindow() {
       category: 'Brand Identity',
       tags: ['Procreate', 'Canva', 'Icons', 'Minimal', 'Branding'],
       images: [
-        '../assets/Sublety-banner.png',
-        '../assets/Sublety-Logo.png',
-        '../assets/Sublety-Logo2.png',
-        '../assets/Sublety-name.png',
-        '../assets/Link-image.png',
+        'public/assets/Sublety-banner.png',
+        'public/assets/Sublety-Logo.png',
+        'public/assets/Sublety-Logo2.png',
+        'public/assets/Sublety-name.png',
+        'public/assets/Link-image.png',
       ],
     },
     {
@@ -24,8 +24,8 @@ export function AssetsWindow() {
       category: 'Brand Identity',
       tags: ['Procreate', 'Figma', 'Icons', 'Minimal', 'Branding'],
       images: [
-        '../assets/Caeli-banner.png',
-        '../assets/Caeli-logo.png',
+        'public/assets/Caeli-banner.png',
+        'public/assets/Caeli-logo.png',
       ],
     },
   ];

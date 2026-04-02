@@ -10,7 +10,7 @@ export function ProfileWindow() {
           <div className="relative">
             <div className="w-48 h-48 rounded-full bg-gradient-to-br from-[#CB748E] via-[#D698AB] to-[#ECA0B8] p-1 shadow-lg shadow-[#CB748E]/30">
               <div className="w-full h-full rounded-full overflow-hidden">
-                <img src='../assets/Headshot.jpeg' alt="Taylor Wymes" className="w-full h-full object-cover" />
+                <img src='public/assets/Headshot.jpeg' alt="Taylor Wymes" className="w-full h-full object-cover" />
               </div>
             </div>
             <Sparkles className="absolute -top-2 -right-2 w-8 h-8 text-[#ECA0B8] fill-[#ECA0B8]" />
@@ -104,7 +104,7 @@ export function ProfileWindow() {
             {/* Banner Image */}
             <div className="w-full">
               <img 
-                src="../assets/eyes.jpg" 
+                src="public/assets/eyes.jpg" 
                 alt="Banner" 
                 className="w-full h-auto rounded-lg border-2 border-[#ECA0B8]/30 shadow-lg"
               />
@@ -145,7 +145,7 @@ export function ProfileWindow() {
               {/* Decorative Image beside education - hidden on mobile */}
               <div className="hidden md:flex items-center justify-center md:w-48 flex-shrink-0">
                 <div className="bg-[#ECA0B8]/10 border border-[#ECA0B8] rounded-lg p-2.5 flex items-center justify-center">
-                  <img src="../assets/Smiski.png" alt="Decorative character" className="w-48 h-40 object-contain" />
+                  <img src="public/assets/Smiski.png" alt="Decorative character" className="w-48 h-40 object-contain" />
                 </div>
               </div>
             </div>
@@ -170,7 +170,7 @@ export function ProfileWindow() {
         {/* Decorative Image - shown at bottom on mobile only */}
         <div className="flex justify-center md:hidden">
           <div className="bg-[#ECA0B8]/10 border border-[#ECA0B8] rounded-lg p-2.5 flex items-center justify-center">
-            <img src="../assets/Smiski.png" alt="Decorative character" className="w-45 h-45 object-contain" />
+            <img src="public/assets/Smiski.png" alt="Decorative character" className="w-45 h-45 object-contain" />
           </div>
         </div>
       </div>
