@@ -26,32 +26,32 @@ export function ToolsWindow() {
   const softwareIcons = [
     {
       name: "C",
-      image: "public/assets/C-program.png",
+      image: "assets/C-program.png",
       color: "bg-[#426E55]/20 border-[#426E55]",
     },
     {
       name: "Java",
-      image: "public/assets/java-program.svg",
+      image: "assets/java-program.svg",
       color: "bg-[#73986F]/20 border-[#73986F]",
     },
     {
       name: "Python",
-      image: "public/assets/python-program.png",
+      image: "assets/python-program.png",
       color: "bg-[#73986F]/20 border-[#73986F]",
     },
     {
       name: "Git",
-      image: "public/assets/git-logo.png",
+      image: "assets/git-logo.png",
       color: "bg-[#73986F]/20 border-[#73986F]",
     },
     {
       name: "Canva",
-      image: "public/assets/Canva-logo.png",
+      image: "assets/Canva-logo.png",
       color: "bg-[#D698AB]/20 border-[#D698AB]",
     },
     {
       name: "Figma",
-      image: "public/assets/figma-logo.png",
+      image: "assets/figma-logo.png",
       color: "bg-[#CB748E]/20 border-[#CB748E]",
     },
   ];
