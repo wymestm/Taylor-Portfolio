@@ -1,7 +1,8 @@
 
-  # Portfolio site design
+  # Portfolio site
 
-  This is a code bundle for Portfolio site design. The original project is available at https://www.figma.com/design/r5Cfv131l7LsGvZPipHOSR/Portfolio-site-design.
+ Welcome to my Portfolio site repo!
+ If you'd like to visit my site, it's available on vercel > https://taylor-portfolio-2hyn.vercel.app/
 
   ## Running the code
 
