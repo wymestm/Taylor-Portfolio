@@ -5,12 +5,11 @@ import { ImageWithFallback } from "./figma/ImageWithFallback";
 export function ToolsWindow() {
   const tools = {
     development: [
+      { name: "Python", level: 60 },
       { name: "C", level: 60 },
       { name: "Java", level: 40 },
-      { name: "Python", level: 40 },
-      { name: "React", level: 20 },
+      { name: "React", level: 30 },
       { name: "TypeScript", level: 20 },
-      { name: "Dart", level: 20 },
     ],
     design: [
       { name: "Figma", level: 25 },
@@ -18,12 +17,20 @@ export function ToolsWindow() {
       { name: "Photoshop", level: 30 },
     ],
     other: [
-      { name: "Git", level: 40 },
+      { name: "Git", level: 50 },
+      { name: "Microsoft Power Apps", level: 30 },
+      { name: "Microsoft Power Automate", level: 25 },
+      { name: "Microsoft Power BI", level: 20 },
       { name: "Docker", level: 15 },
     ],
   };
 
   const softwareIcons = [
+    {
+      name: "Python",
+      image: "assets/python-program.png",
+      color: "bg-[#73986F]/20 border-[#73986F]",
+    },
     {
       name: "C",
       image: "assets/C-program.png",
@@ -32,11 +39,6 @@ export function ToolsWindow() {
     {
       name: "Java",
       image: "assets/java-program.svg",
-      color: "bg-[#73986F]/20 border-[#73986F]",
-    },
-    {
-      name: "Python",
-      image: "assets/python-program.png",
       color: "bg-[#73986F]/20 border-[#73986F]",
     },
     {

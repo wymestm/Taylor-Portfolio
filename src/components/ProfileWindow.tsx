@@ -80,8 +80,7 @@ export function ProfileWindow() {
             <div className="bg-[#73986F]/10 border border-[#73986F] rounded-lg p-3 space-y-1">
               <p className="text-xs text-[#2D4839] font-mono"><span className="font-bold">Name:</span> Taylor Wymes</p>
               <p className="text-xs text-[#2D4839] font-mono"><span className="font-bold">Pronouns:</span> She/Her</p>
-              <p className="text-xs text-[#2D4839] font-mono"><span className="font-bold">Role:</span> Student Developer</p>
-              <p className="text-xs text-[#2D4839] font-mono"><span className="font-bold">Location:</span> Guelph</p>
+              <p className="text-xs text-[#2D4839] font-mono"><span className="font-bold">Locations:</span> Guelph & Toronto</p>
             </div>
             
             <button
@@ -116,9 +115,9 @@ export function ProfileWindow() {
                 ABOUT ME
               </h3>
               <p className="text-sm text-[#2D4839] leading-relaxed">
-                I am a developer with a strong interest in web and mobile application development, focused on building user-friendly and visually engaging digital experiences. 
+                I am a developer with a strong interest in developing data pipelines and web/mobile applications, with a focus on creating user-friendly and impactful digital experiences. 
                 I enjoy transforming conceptual ideas into functional applications, valuing clean design, structured problem-solving, and creating software that is both reliable and intuitive.<br />
-                My interests in anime, gaming, and reading inspire creativity and attention to detail. I enjoy continuously learning new concepts and technologies and bringing fresh, thoughtful perspectives to every project I contribute to.
+                My interests in anime, gaming, research, and reading inspire creativity and attention to detail. I enjoy continuously learning new concepts and technologies and bringing fresh, thoughtful perspectives to every project I contribute to.
               </p>
             </div>
             
@@ -135,8 +134,8 @@ export function ProfileWindow() {
                     <p className="text-xs text-[#426E55]">University of Guelph, Guelph ON • 2024 - 2029</p>
                     <ul className="list-disc ml-5 mt-2 space-y-1">
                       <li className="text-xs text-[#2D4839]">Completing a minor in Linguistics</li>
-                      <li className="text-xs text-[#2D4839]">Cumulative average: 87%</li>
-                      <li className="text-xs text-[#2D4839]">Dean's Honours List recipient: Fall 2024, Winter 2025, Fall 2025</li>
+                      <li className="text-xs text-[#2D4839]">Cumulative average: 86%</li>
+                      <li className="text-xs text-[#2D4839]">Dean's Honours List recipient: Fall 2024, Winter 2025, Fall 2025, Winter 2026</li>
                     </ul>
                   </div>
                 </div>
@@ -156,12 +155,12 @@ export function ProfileWindow() {
                 <p className="text-xs sm:text-xs text-[#426E55] mt-1">Years Coding</p>
               </div>
               <div className="bg-[#73986F]/10 border-2 border-[#73986F] rounded-lg p-4 sm:p-3 text-center">
-                <p className="text-xl sm:text-2xl font-bold text-[#2D4839]">Caeli Weather</p>
+                <p className="text-xl sm:text-2xl font-bold text-[#2D4839]">Caeli Weather V2</p>
                 <p className="text-xs sm:text-xs text-[#426E55] mt-1">Current Project</p>
               </div>
               <div className="bg-[#73986F]/10 border-2 border-[#73986F] rounded-lg p-4 sm:p-3 text-center">
-                <p className="text-xl sm:text-2xl font-bold text-[#2D4839]">∞</p>
-                <p className="text-xs sm:text-xs text-[#426E55] mt-1">Ideas Brewing</p>
+                <p className="text-xl sm:text-2xl font-bold text-[#2D4839]">DHL Express IT Intern</p>
+                <p className="text-xs sm:text-xs text-[#426E55] mt-1">Current Role</p>
               </div>
             </div>
           </div>
